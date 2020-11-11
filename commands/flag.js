@@ -4,14 +4,12 @@ let countryData = require("../resources/country_codes.json");
 module.exports = {
   name: "flag",
   aliases: ['fg', 'flags'],
-
   cooldown: 5,
   description:
     "This bot takes a two letter country code as argument and returns the country's flag 🏳!",
   args: true,
   usage: '<Country code>',
   guildOnly: false,
-
 
   execute(msg, args) {
     if (args.length != 1) {

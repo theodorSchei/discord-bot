@@ -6,6 +6,7 @@ module.exports = {
   aliases: ["commands"],
   usage: "[command name]",
   cooldown: 0,
+  guildOnly: false,
 
   execute(message, args) {
     const data = [];
@@ -20,6 +21,7 @@ module.exports = {
 
       return message.channel.send(data, { split: true });
     }
+
     const name = args[0].toLowerCase();
     const command =
       commands.get(name) ||
