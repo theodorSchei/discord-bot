@@ -1,0 +1,13 @@
+module.exports = {
+  name: 'command',                        // name of command
+  aliases: ['comm'],                      // aliases that can be used to call command
+  cooldown: 5,                            // cooldown in seconds
+  description: 'This command does...',    // description
+  args: false,                            // if the command takes arguments
+  usage: '<argument>',                    // how to use arguments
+  guildOnly: false,                       // if this is a guildOnly command (not available in dm's)
+
+  execute(msg, args) {
+    // This method is called when someone writes the command
+  }
+};

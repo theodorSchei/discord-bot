@@ -1,3 +1,3 @@
 # Hei og hopp
 
-dette er en discord bott
+dette er en discord bot
