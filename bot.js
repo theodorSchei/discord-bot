@@ -107,6 +107,6 @@ function gotMessage(msg) {
     command.execute(msg, args);
   } catch (error) {
     console.error(error);
-    msg.reply("there was an error trying to execute that command!");
+    msg.reply("there was an error trying to execute that command!")
   }
 }
